@@ -8,14 +8,13 @@
  *
  * @author acer
  */
-public class Konter extends HP {
+public class Konter  {
     private String Harga;
     private HP hp;
-    
 
-    public Konter(String Harga, String TipeHp, Nomor kartu) {
-        super(TipeHp, kartu);
+    public Konter(String Harga, HP hp) {
         this.Harga = Harga;
+        this.hp = hp;
     }
 
     public String getHarga() {
