@@ -25,6 +25,11 @@ public class Konter extends HP {
         this.Harga = Harga;
     }
     
+    public String info(){
+        String info = "";
+        System.out.println("Nomor   :"+this.Harga+ "\n");
+        return info;
+    }
     
     
 }
