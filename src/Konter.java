@@ -8,6 +8,23 @@
  *
  * @author acer
  */
-public class Konter {
+public class Konter extends HP {
+    private String Harga;
+    
+
+    public Konter(String Harga, String TipeHp, Nomor kartu) {
+        super(TipeHp, kartu);
+        this.Harga = Harga;
+    }
+
+    public String getHarga() {
+        return Harga;
+    }
+
+    public void setHarga(String Harga) {
+        this.Harga = Harga;
+    }
+    
+    
     
 }
