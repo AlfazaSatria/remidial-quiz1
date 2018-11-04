@@ -10,6 +10,7 @@
  */
 public class Konter extends HP {
     private String Harga;
+    private HP hp;
     
 
     public Konter(String Harga, String TipeHp, Nomor kartu) {
@@ -27,7 +28,8 @@ public class Konter extends HP {
     
     public String info(){
         String info = "";
-        System.out.println("Nomor   :"+this.Harga+ "\n");
+        System.out.println("Harga  :"+this.Harga+ "\n");
+        hp.info();
         return info;
     }
     
