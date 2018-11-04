@@ -39,8 +39,8 @@ public class Nomor {
     
     public String Info(){
         String info = "";
-        System.out.println("Nomor   :"+this.Nomor+"\n");
-        System.out.println("Nomor   :"+this.Operator+"\n");
+        System.out.println("Nomor      :"+this.Nomor+"\n");
+        System.out.println("Operator   :"+this.Operator+"\n");
         return info;
     }
 }
