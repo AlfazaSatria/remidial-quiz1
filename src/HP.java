@@ -25,6 +25,11 @@ public class HP extends Nomor{
         this.TipeHp = TipeHp;
     }
     
-    
+    public String info (){
+        String info= "";
+        System.out.println("TipeHP   :"+this.TipeHp+"\n");
+        kartu.Info();
+        return info;
+    }
     
 }
