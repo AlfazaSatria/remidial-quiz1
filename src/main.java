@@ -12,7 +12,9 @@ public class main {
     public static void main(String[] args) {
       Nomor kartu = new Nomor("081336811073","Telkomsel");
       HP hp = new HP ("iPhone 6s",kartu);
-      Konter kntr = 
+      Konter kntr = new Konter("650000",hp);
+      
+      System.out.println(kntr.info());
   }
     
 }
