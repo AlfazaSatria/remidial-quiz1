@@ -10,5 +10,21 @@
  */
 public class HP extends Nomor{
     private String TipeHp;
-    private Nomor nomor;
+    private Nomor kartu;
+
+    public HP(String TipeHp, Nomor kartu) {
+        this.TipeHp = TipeHp;
+        this.kartu = kartu;
+    }
+
+    public String getTipeHp() {
+        return TipeHp;
+    }
+
+    public void setTipeHp(String TipeHp) {
+        this.TipeHp = TipeHp;
+    }
+    
+    
+    
 }
